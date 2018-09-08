@@ -16,5 +16,5 @@ Museo de Arte Moderno Carlos Mérida
 
 Para la galería se usará [Swiper JS](http://idangero.us/swiper/)
 
-Líneas nuevas de Readme
+Otras linea de Readme
 
