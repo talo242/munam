@@ -1,10 +1,14 @@
+html{
+    background-color: whitesmoke;
+}
+
 .menu{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif; color: gray;
     font-size: 13px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 50px;
+    padding: 0px 50px 0px 50px;
 }
 
 .Munam{
@@ -13,5 +17,26 @@
 }
 
 .categories{
-    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
 }
+
+#main-footer{
+    padding: 50px 50px 50px 50px;
+    position: absolute;
+    width: -webkit-fill-available;
+    bottom: 0;
+}
+
+.footer{
+    font-family: Arial, Helvetica, sans-serif; color: gray;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
