@@ -15,6 +15,3 @@ Museo de Arte Moderno Carlos Mérida
 - **Servicios/Contacto** - Byron
 
 Para la galería se usará [Swiper JS](http://idangero.us/swiper/)
-
-Líneas nuevas de Readme
-
