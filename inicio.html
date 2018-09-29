@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Munam</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="swiper/dist/css/swiper.min.css">
+  
+  <link rel="stylesheet" href="inicio.css">
+   
+</head>
+<body>
+   <!-- Swiper -->
+   <div class="swiper-container contenedor">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="namePicture">
+            <img src="img/cuadro2.png">
+            <h6>Iglesia de Santiago de Atitlan./ Humberto Garivato.</h6>
+          </div>
+          <h1>Creado<br>en<br>1935.</h1>
+        </div>
+        <div class="swiper-slide">
+          <div class="namePicture">
+            <img src="img/cuadro4.png">
+            <h6>La sentencia./ Manuel Gallardo</h6>
+          </div>
+          <h1>Más de<br>2,546<br>Obras</h1>
+        </div>
+        <div class="swiper-slide">
+          <div class="namePicture">
+            <img src="img/cuadro3.png">
+            <h6>L'Image./Rudy Cotton</h6>
+          </div>
+          <h1>100<br>años<br>de Arte.</h1>
+        </div>
+        <div class="swiper-slide">
+          <div class="namePicture">
+            <img src="img/cuadro1.jpeg">
+            <h6>Hombres Petreos./Carlos Mérida</h6>
+          </div>
+          <h1>Sala<br>Carlos<br>Mérida.</h1>
+        </div>
+        
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+  
+    <!-- Swiper JS -->
+    <script src="swiper/dist/js/swiper.min.js"></script>
+  
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        direction: 'vertical',
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+      });
+    </script>
+</body>
+</html>

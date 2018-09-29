@@ -1,0 +1,58 @@
+body{
+    margin:0px;
+    text-align:justify;
+    display: flex;
+    justify-content: center;
+    background-color:#F2F2F2;
+}
+.contenedor{
+    display: flex;
+    flex-direction:row;
+    width:1000px;
+    justify-content: center;
+}
+
+.contenido{
+    display:flex;
+    flex-direction: column;
+}
+
+.columna1{ 
+    width:40%;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.columna2{
+    width:40%;
+}
+
+.space{
+    height:120px;
+}
+
+h1{
+    font-size:60pt;
+    margin-top:0px;
+    margin-bottom:40px;
+}
+
+h1, h3{
+    font-family: 'Neue Montreal Bold';
+    color:#999999;
+}
+
+p{
+    font-family:'Neue Montreal Regular';
+    color:#9F9F9F;
+}
+
+@font-face {
+    font-family: 'Neue Montreal Bold';
+    src: url('fuente/NeueMontreal-Bold.otf'); 
+}
+
+@font-face {
+    font-family: 'Neue Montreal Regular';
+    src: url('fuente/NeueMontreal-Regular.otf'); 
+}
