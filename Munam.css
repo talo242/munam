@@ -9,6 +9,7 @@ html{
     flex-direction: row;
     justify-content: space-between;
     padding: 0px 50px 0px 50px;
+    height: 80px;
 }
 
 .Munam{
@@ -26,8 +27,7 @@ html{
 }
 
 #main-footer{
-    padding: 50px 50px 50px 50px;
-    position: absolute;
+    padding: 20px 50px;
     width: -webkit-fill-available;
     bottom: 0;
 }
@@ -40,3 +40,11 @@ html{
     justify-content: space-between;
 }
 
+.menu-link {
+    color: #808080;
+    text-decoration: none;
+}
+
+.menu-link:hover {
+    color: #808080;
+}
