@@ -10,12 +10,12 @@ body{
     display: flex;
     flex-direction:row;
     width:1000px;
-    justify-content: center;
 }
 
 .contenido{
     display:flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .columna1{ 
@@ -56,4 +56,21 @@ p{
 @font-face {
     font-family: 'Neue Montreal Regular';
     src: url('fuente/NeueMontreal-Regular.otf'); 
+}
+
+@media screen and (max-width: 1000px) {
+   .contenido{
+    
+   }
+    .contenedor{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .columna1{
+        display: flex;
+        align-items: center; 
+        width:80%;
+        margin-right: 50px;
+        margin-left: 50px;
 }

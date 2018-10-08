@@ -39,8 +39,14 @@ html, body {
   /*swiper*/
 
   img{
-    width: 85%;
-    box-shadow: -30px 30px 50px rgb(173, 170, 170);
+    width: 80%;
+    box-shadow: -30px 20px 40px rgb(173, 170, 170);
+  }
+  .sentencia{
+    width: 75%;
+  }
+  .LImage{
+    width:70%;
   }
   h1{
     font-size:150px;
@@ -80,13 +86,17 @@ html, body {
     h1 {
       font-size: 90px;
     }
+    h6{
+      margin-left:2px;
+      font-size:8px;
+  }
     img{
         width: 65%;
     }
 }
 
 .namePicture{
-  align-items: flex-end; 
+  align-items: fle x-end; 
 }
 
 @media screen and (max-width: 800px) {
@@ -94,7 +104,7 @@ html, body {
       font-size: 70px;
     }
     h6{
-        font-size:5px;
+        font-size:8px;
     }
 }
 
@@ -102,10 +112,29 @@ html, body {
     h1 {
       font-size: 50px;
     }
-    h6{
-        font-size:5px;
+    .swiper-slide{
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
     }
-}
+    img{
+      width: 200px;
+      box-shadow: -30px 20px 40px rgb(173, 170, 170);
+    }
+    .namePicture{
+      display: flex;
+      align-items: center;
+    }
+    h6{
+      margin-left:10px;
+    }
+    .sentencia{
+      width: 200px;
+    }
+    .LImage{
+      width:200px;
+    }
+  }
 
 /* swiper overwrites */
 

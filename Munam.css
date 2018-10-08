@@ -8,18 +8,28 @@ html{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0px 50px 0px 50px;
+    align-items: center;
+    padding: 0px 150px 0px 150px;
     height: 80px;
 }
 
 .Munam{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 30px;
 }
-
+a{
+    text-decoration: none;
+}
+a:visited{
+    font-family: Arial, Helvetica, sans-serif; 
+    color: gray;
+}
+a:hover{
+    color: #333333;
+}
 .categories{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
+    font-size: 15px;
     width: 500px;
     display: flex;
     align-items: center;
@@ -27,13 +37,13 @@ html{
 }
 
 #main-footer{
-    padding: 20px 50px;
+    padding: 20px 50px 0px 50px;
     width: -webkit-fill-available;
     bottom: 0;
 }
 
 .footer{
-    font-family: Arial, Helvetica, sans-serif; color: gray;
+    font-family: 'Neue Montreal Bold', Arial, Helvetica, sans-serif; color: gray;
     font-size: 13px;
     display: flex;
     align-items: center;
@@ -47,4 +57,29 @@ html{
 
 .menu-link:hover {
     color: #808080;
+}
+
+.fab{
+    padding: 0px 10px 0px 10px;
+    color:  #808080;
+}
+.rights{
+    font-size:9px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 600px) {
+.rights{
+    font-size:9px;
+    }
+#main-footer{
+    padding:10px 20px 0px 20px !important;
+}
+.fab{
+    padding: 0px 0px 10px 10px;
+}
+.social{
+    display:flex;
+    flex-wrap: wrap;
+    }
 }
