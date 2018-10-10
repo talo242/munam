@@ -3,7 +3,7 @@ body{
     text-align:justify;
     display: flex;
     justify-content: center;
-    background-color:#F2F2F2;
+    background-color:#F2F2F2 !important;
     flex-direction: column;
 }
 .contenedor{
@@ -29,7 +29,7 @@ body{
 }
 
 .space{
-    height:120px;
+    height:55px;
 }
 
 h1{
@@ -39,13 +39,13 @@ h1{
 }
 
 h1, h3{
-    font-family: 'Neue Montreal Bold';
-    color:#999999;
+    font-family: 'Neue Montreal Bold'!important;
+    color:#999999 !important;
 }
 
 p{
-    font-family:'Neue Montreal Regular';
-    color:#9F9F9F;
+    font-family:'Neue Montreal Regular'!important;
+    color:#9F9F9F !important;
 }
 
 @font-face {
@@ -63,14 +63,19 @@ p{
     
    }
     .contenedor{
+        display: flex;
         flex-direction: column;
         align-items: center;
-        
+        width: 100%;
     }
     .columna1{
-        display: flex;
-        align-items: center; 
         width:80%;
-        margin-right: 50px;
-        margin-left: 50px;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    .columna2{
+        width:80%;
+        padding-right:50px;
+        padding-left: 50px;
+    }
 }

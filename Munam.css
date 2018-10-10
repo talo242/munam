@@ -3,19 +3,15 @@ html{
 }
 
 .menu{
-    font-family: Arial, Helvetica, sans-serif; color: gray;
-    font-size: 13px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 150px 0px 150px;
-    height: 80px;
+    font-family: 'Neue Montreal Bold'!important; 
+    font-size: 15.5px;
+    color: gray !important;
 }
 
 .Munam{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 40px !important;
+    color: gray !important;
 }
 a{
     text-decoration: none;
@@ -61,11 +57,16 @@ a:hover{
 
 .fab{
     padding: 0px 10px 0px 10px;
-    color:  #808080;
+    color:  #808080 !important;
 }
 .rights{
     font-size:9px;
     font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Neue Montreal Bold';
+    src: url('fuente/NeueMontreal-Bold.otf'); 
 }
 
 @media screen and (max-width: 600px) {
