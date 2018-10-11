@@ -61,7 +61,7 @@
       box-shadow: -30px 30px 50px rgb(173, 170, 170);
     max-width: 536px;
       max-height: 435px;
-      min-width: 15%;
+      min-width: auto;
       
       width: 40%;
       height: auto;
