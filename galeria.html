@@ -18,18 +18,19 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7" crossorigin="anonymous">
   <!-- Demo styles -->
   <style>
-    html, body {
-      position: relative;
-      height: 100%;
-    }
-    body {
-      background: #eee;
-      font-family: 'Neue Montreal Regular';
-      font-size: 16px;
-      color:#999999;
-      margin: 0;
-      padding: 0;
-    }
+body {
+    background: #424241!important;
+    font-family: 'Neue Montreal Regular' !important;
+    font-size: 14px !important;
+    margin: 0;
+    padding: 0;
+    color:#FBFBFB !important;
+ 
+  }
+  html, body {
+    position: relative;
+    height: 100%;
+  }
     .swiper-container {
       width: 100%;
       height: calc(100vh - 135px);
@@ -72,37 +73,29 @@
   </style>
 </head>
 <body>
-   <!-- main-header -->
-   <nav class="navbar navbar-expand-lg navbar-light ml-md-8 pr-md-5 container menu">
-      <a class="navbar-brand font-weight-bold Munam pl-md-2" href="Index.html">munam.</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="col-lg-6 offset-lg-3 pr-md-6 collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav mt-2 mt-lg-0">
-          <li class="nav-item active">
-              <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link pl-3" href="museo.html">Museo</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link pl-3" href="servicios.html">Servicios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pl-3" href="galeria.html">Galeria</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pl-3" href="recorrido.html">Recorrido</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pl-3" href="contacto.html">Contacto</a>
-            </li>  
-      </div>
-    </nav>
-  <!-- main-header -->
-  <!-- Swiper -->
+      <!-- main-header -->
+      <div class="container"></div>
+      <nav class="navbar navbar-expand-lg navbar-dark m-4 row">
+        <a class="navbar-brand hidden-sm d-lg-none color" href="Index.html">Munam.</a>
+        <a class="navbar-brand d-none d-lg-block title col-1" href="Index.html">
+            <img class="logo"src="img/logo2.png"> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>   
+        <div class=" offset-lg-4 col-lg-6 pr-md-6 collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav navbar-center">
+            <a class="nav-item nav-link active border border-white mr-4 pr-4 pl-4" href="Index.html">Inicio<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link border border-white mr-4 pr-4 pl-4" href="informacion.html">Información</a>
+            <a class="nav-item nav-link border border-white mr-4 pr-4 pl-4" href="galeria.html">Galería</a>
+            <a class="nav-item nav-link border border-white mr-4 pr-4 pl-4" href="recorrido.html">Recorrido</a>
+            <a class="nav-item nav-link border border-white mr-4 pr-4 pl-4" href="contacto.html">Contacto</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- main-header -->
+  
+    <!-- Swiper -->
   <div class="swiper-container swiper-container-h">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
@@ -231,18 +224,19 @@
     <div class="swiper-pagination swiper-pagination-h"></div>
   </div>
 
-<!--footer-->
-<div id="main-footer">
-    <div class="footer">
+ <!-- footer -->
+ <div id="main-footer">
+    <div class="footer m-sm-4">
       <div class="rights">© 2018 Museo Nacional de Arte Moderno "Carlos Mérida"</div>
-      <div class="social">
-        <a href="https://www.facebook.com/museocarlosmerida/"><i class="fab fa-facebook-f fa-lg"></i></a>
-        <a href="https://www.instagram.com/explore/locations/834966468/museo-nacional-de-arte-moderno-carlos-merida/"><i class="fab fa-instagram fa-lg"></i></a>
-        <a href=""><i class="fab fa-twitter fa-lg"></i></a>
-        <a href="""><i class="fab fa-youtube fa-lg"></i></a>
+          <div class="social">
+            <a href="https://www.facebook.com/museocarlosmerida/"><i class="fab fa-facebook-f fa-lg mr-sm-4 mr-2"></i></a>
+            <a href="https://www.instagram.com/explore/locations/834966468/museo-nacional-de-arte-moderno-carlos-merida/"><i class="fab fa-instagram fa-lg mr-sm-4 mr-2"></i></a>
+            <a href=""><i class="fab fa-twitter fa-lg mr-sm-4 mr-2"></i></a>
+            <a href="""><i class="fab fa-youtube fa-lg mr-sm-4 mr-2"></i></a>
+          </div>
       </div>
-    </div>
   </div>
+
   <!-- Swiper JS -->
   <script src="dist/js/swiper.min.js"></script>
 

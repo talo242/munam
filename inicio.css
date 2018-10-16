@@ -8,142 +8,33 @@ html, body {
     height: 100%;
   }
   body {
-    background: #F2F2F2!important;
+    background: #424241!important;
     font-family: 'Neue Montreal Bold' !important;
     font-size: 14px !important;
     margin: 0;
     padding: 0;
-    color:#808080 !important;
+    color:#FBFBFB !important;
     overflow-x:hidden;
     overflow-y:hidden;
   }
 
-  .swiper-container {
-    height: calc(100vh - 135px);
-  }
-  
-  .swiper-slide {
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-  }
-  /*swiper*/
-
-  img{
-    width: 80%;
-    box-shadow: -30px 20px 40px rgb(173, 170, 170);
-  }
-  .sentencia{
-    width: 70%;
-  }
-  .LImage{
-    width:70%;
-  }
-  h1{
-    font-size:150px !important;
-    margin: 50px;
-    line-height: 100%;
-  }
-  p{
-    font-size:10px;
-    margin:10px;
-    margin-left:-150px;
-  }
-  .alination{
-    display: flex;
-    justify-content: center;
-  }
-  .contenedor{
-      display:flex;
-      align-items: center;
-      justify-content: center;
-  }
-  .namePicture{
-    width: 500px;
-    display:flex;
-    flex-direction: column;
-    align-items: center; 
-  }
-
-  .row{
-    width:100%;
-  }
-
-@media screen and (max-width: 1200px) {
-  h1{
-      font-size: 110px !important;
-    }
-    img{
-        width: 75%;
-    }
+#title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
 }
 
-@media screen and (max-width: 1000px) {
-  h1{
-      font-size: 90px !important;
-    }
-    p{
-      margin-left:2px;
-      font-size:8px;
-  }
-    img{
-        width: 65%;
-    }
+.logo{
+  height:90px;
 }
 
-.namePicture{
-  align-items: flex-end; 
+h2{
+  font-family: 'Neue Montreal Regular'!important;
+  line-height: 25px !important; 
 }
 
-@media screen and (max-width: 800px) {
-  h1{
-      font-size: 70px !important;
-    }
-    p{
-        font-size:8px;
-    }
-}
-
-@media screen and (max-width: 650px) {
-  h1{
-      font-size: 50px !important;
-    }
-    .swiper-slide{
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
-    }
-    img{
-      width: 200px;
-      box-shadow: -30px 20px 40px rgb(173, 170, 170);
-    }
-    .namePicture{
-      display: flex;
-      align-items: center;
-    }
-    p{
-      margin-left:10px;
-    }
-    .sentencia{
-      width: 200px;
-    }
-    .LImage{
-      width:200px;
-    }
-  }
-
-/* swiper overwrites */
-
-.swiper-container-vertical>.swiper-pagination-bullets {
-  right: 15px;
+@font-face {
+  font-family: 'Neue Montreal Regular';
+  src: url('fuente/NeueMontreal-Regular.otf'); 
 }

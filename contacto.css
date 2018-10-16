@@ -1,0 +1,45 @@
+body {
+    background: #424241!important;
+    font-family: 'Neue Montreal Regular' !important;
+    font-size: 15px !important;
+    margin: 0;
+    padding: 0;
+    color:#FBFBFB !important;
+ 
+  }
+  html, body {
+    position: relative;
+    height: 100%;
+    width:100%;
+  }
+.contacto{
+    display:flex;
+    justify-content: center !important;
+    width:100%;
+}
+h6{
+     font-size:20px !important;
+     font-weight: 600 !important;
+     font-family: 'Neue Montreal Regular' !important;
+ }
+.btn-info{
+    background-color:#424241 !important;
+    border: none !important;
+}
+
+.fas{
+    width:20px;
+}
+button.submit{
+    display: flex;
+    width: 200px !important;
+}
+button:hover{
+    border: 1px solid white !important;
+}
+  @font-face {
+    font-family: 'Neue Montreal Regular';
+    src: url('fuente/NeueMontreal-Regular.otf'); 
+  }
+
+ 

@@ -1,0 +1,39 @@
+body {
+    background: #424241!important;
+    font-family: 'Neue Montreal Regular' !important;
+    font-size: 14px !important;
+    margin: 0;
+    padding: 0;
+    color:#FBFBFB !important;
+ 
+  }
+  html, body {
+    position: relative;
+    height: 100%;
+  }
+
+  h3{
+    font-size: 18px !important;
+    text-align: center;
+  }
+
+  p{
+    text-align: justify;
+  }
+
+  #historia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-footer{
+      display:flex;
+      align-items:flex-end;
+  }
+
+  @font-face {
+    font-family: 'Neue Montreal Regular';
+    src: url('fuente/NeueMontreal-Regular.otf'); 
+  }

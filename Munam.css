@@ -1,67 +1,29 @@
-html{
-    background-color: whitesmoke;
+.logo{
+    height: 70px;
+  }
+
+a.nav-item{
+    color: #FBFBFB !important;
+    font-size:16px !important;
+    font-family: 'Neue Montreal Regular' !important;
 }
 
-.menu{
-    font-family: 'Neue Montreal Bold'!important; 
-    font-size: 15.5px;
-    color: gray !important;
-}
-
-.Munam{
-    font-family: Arial, Helvetica, sans-serif !important;
-    font-size: 40px !important;
-    color: gray !important;
-}
-a{
-    text-decoration: none;
-}
-a:visited{
-    font-family: Arial, Helvetica, sans-serif; 
-    color: gray;
-}
-a:hover{
-    color: #333333;
-}
-.categories{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    width: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between; 
-}
-
-#main-footer{
-    padding: 20px 50px 0px 50px;
-    width: -webkit-fill-available;
-    bottom: 0;
+a.color{
+    font-size: 30px;
 }
 
 .footer{
-    font-family: 'Neue Montreal Bold', Arial, Helvetica, sans-serif; color: gray;
-    font-size: 13px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
-.menu-link {
-    color: #808080;
-    text-decoration: none;
-}
-
-.menu-link:hover {
-    color: #808080;
+.social{
+    display:flex;
+    flex-wrap: wrap;
 }
 
 .fab{
-    padding: 0px 10px 0px 10px;
-    color:  #808080 !important;
-}
-.rights{
-    font-size:9px;
-    font-weight: 500;
+    color: #FBFBFB;
 }
 
 @font-face {
@@ -69,18 +31,32 @@ a:hover{
     src: url('fuente/NeueMontreal-Bold.otf'); 
 }
 
-@media screen and (max-width: 600px) {
-.rights{
-    font-size:9px;
-    }
-#main-footer{
-    padding:10px 20px 0px 20px !important;
+@font-face {
+    font-family: 'Neue Montreal Regular';
+    src: url('fuente/NeueMontreal-Regular.otf'); 
 }
-.fab{
-    padding: 0px 0px 10px 10px;
-}
-.social{
-    display:flex;
-    flex-wrap: wrap;
+
+@media screen and (min-width: 991px) {
+    .color{
+        width: 100%;
+        display: flex;
+        justify-content: center;;
     }
+}
+@media screen and (max-width: 991px) {
+    a.nav-item{
+        border: none !important;
+    }
+}
+
+@media screen and (max-width: 574px){
+    .footer{
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 453px){
+    .logo{
+        height: 50px;
+    }          
 }
