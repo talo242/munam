@@ -8,6 +8,7 @@
   <!-- Link Swiper's CSS -->
   <link rel="stylesheet" href="dist/css/swiper.min.css">
   <link rel="stylesheet" href="Munam.css">
+  <link rel="stylesheet" href="galeria.css">
   <!--Bootstrap-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   
@@ -17,62 +18,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/brands.css" integrity="sha384-rf1bqOAj3+pw6NqYrtaE1/4Se2NBwkIfeYbsFdtiR6TQz0acWiwJbv1IM/Nt/ite" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7" crossorigin="anonymous">
   <!-- Demo styles -->
-  <style>
-body {
-    background: #424241!important;
-    font-family: 'Neue Montreal Regular' !important;
-    font-size: 14px !important;
-    margin: 0;
-    padding: 0;
-    color:#FBFBFB !important;
- 
-  }
-  html, body {
-    position: relative;
-    height: 100%;
-  }
-    .swiper-container {
-      width: 100%;
-      height: calc(100vh - 135px);
-    }
-    .swiper-slide {
-      text-align: center;
-      font-size: 18px;
 
-      /* Center slide text vertically */
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      -webkit-justify-content: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      -webkit-align-items: center;
-      align-items: center;
-    }
-    .swiper-container-v {
-      background: #eee;
-      height:340px;
-    }
-    p{
-      color: white !important;
-      font-weight: 600 !important;
-      font-size: 12px !important;
-    }
- 
-    @media screen and (max-width: 800px) {
-      img.uno{
-        width: 300px;
-      }
-    }
-    @font-face {
-      font-family: 'Neue Montreal Regular';
-      src: url('fuente/NeueMontreal-Regular.otf'); 
-    }
-  </style>
 </head>
 <body>
       <!-- main-header -->
@@ -98,30 +44,18 @@ body {
     <!-- main-header -->
   
     <!-- Swiper -->
-  <div class="swiper-container swiper-container-h">
+  <div class="swiper-container swiper-container-h alto">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        <img class="uno" src="img/Muchacha-y-Eclipse-_-Roberto-Ossaye(1).jpg"alt="Nature" > 
+        <img class="cuatro" src="img/Muchacha-y-Eclipse-_-Roberto-Ossaye(1).jpg"alt="Nature" > 
           <p class="dos">Muchacha y Eclipse / Roberto Ossaye / 1951</p>
           <p class="tres">Colección permanente.</p>
         </a>
       </div>
       <div class="swiper-slide">
-        <div class="swiper-container swiper-container-v">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <img class="cuatro" src="img/Bodegón-con-Paisaje-_-Max-Saravia-Gual.jpg"alt="Nature" > 
-                <p class="dos">Bodegón con Paisaje / Max Saravia Gual</p>
-                <p class="tres">Colección permanente.</p>
-            </div>
-            
-            <div class="swiper-slide">Vertical Slide 2</div>
-            <div class="swiper-slide">Vertical Slide 3</div>
-            <div class="swiper-slide">Vertical Slide 4</div>
-            <div class="swiper-slide">Vertical Slide 5</div>
-          </div>
-          <div class="swiper-pagination swiper-pagination-v"></div>
-        </div>
+          <img class="cuatro" src="img/Bodegón-con-Paisaje-_-Max-Saravia-Gual.jpg"alt="Nature" > 
+          <p class="dos">Bodegón con Paisaje / Max Saravia Gual</p>
+          <p class="tres">Colección permanente.</p>
       </div>
       <div class="swiper-slide">
           <img class="cuatro" src="img/Familia-Paz-_-Alfredo-Gálvez-Suarez.jpg"alt="Nature" > 
@@ -222,8 +156,9 @@ body {
         </div>
         
     </div>
-     <!-- Add Pagination -->
-    <div class="swiper-pagination swiper-pagination-h"></div>
+     <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
   </div>
 
  <!-- footer -->
@@ -245,10 +180,9 @@ body {
   <!-- Initialize Swiper -->
   <script>
     var swiperH = new Swiper('.swiper-container-h', {
-      spaceBetween: 50,
-      pagination: {
-        el: '.swiper-pagination-h',
-        clickable: true,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
       },
       autoplay: {
         delay: 4000,

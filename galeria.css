@@ -1,0 +1,68 @@
+body {
+    background: #424241!important;
+    font-family: 'Neue Montreal Regular' !important;
+    font-size: 14px !important;
+    margin: 0;
+    padding: 0;
+    color:#FBFBFB !important;
+ 
+  }
+  html, body {
+    position: relative;
+    height: 100%;
+  }
+    .swiper-container {
+      width: 100%;
+      height: calc(100vh - 135px);
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+    .swiper-container-v {
+      background: #eee;
+      height:340px;
+    }
+    p{
+      color: white !important;
+      font-weight: 600 !important;
+      font-size: 12px !important;
+    }
+    .alto{
+        height:72vh;
+    }
+    .swiper-slide{
+        height:500px;
+    }
+    .cuatro{
+        height: 400px;
+        width: 50%;
+    }
+
+    .swiper-button-next .swiper-button-prev{
+        background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    }
+
+    @media screen and (max-width: 800px) {
+      img.uno{
+        width: 300px;
+      }
+    }
+    @font-face {
+      font-family: 'Neue Montreal Regular';
+      src: url('fuente/NeueMontreal-Regular.otf'); 
+    }

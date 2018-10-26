@@ -15,6 +15,7 @@ a.color{
 .footer{
     display: flex;
     justify-content: space-between;
+    height: 3vh !important;
 }
 
 .social{
@@ -24,6 +25,25 @@ a.color{
 
 .fab{
     color: #FBFBFB;
+}
+
+.fab:hover{
+    color:#424241;
+    background-color: white;
+    padding:3px;
+}
+
+a.nav-item:hover{
+    background-color:white;
+    color:#424241!important;
+}
+
+i.fab:hover{
+    margin-left: 0px !important;
+}
+
+.rights{
+    font-family:'Neue Montreal Bold';
 }
 
 @font-face {
