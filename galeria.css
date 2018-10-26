@@ -51,6 +51,8 @@ body {
     .cuatro{
         height: 400px;
         width: 50%;
+        object-fit: contain;
+        background-color: transparent;
     }
 
     .swiper-button-next .swiper-button-prev{
