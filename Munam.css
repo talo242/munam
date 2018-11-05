@@ -28,9 +28,7 @@ a.color{
 }
 
 .fab:hover{
-    color:#424241;
-    background-color: white;
-    padding:3px;
+    color: white;
 }
 
 a.nav-item:hover{
