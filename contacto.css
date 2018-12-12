@@ -13,7 +13,6 @@ body {
   }
   html, body {
     position: relative;
-    height: 100%;
     width:100%;
   }
 .contacto{
@@ -47,3 +46,17 @@ button:hover{
   }
 
  
+.credits-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 16px 0;
+}
+
+.credits-item-list {
+    padding: 0;
+}
+
+.credits-item {
+    list-style: none;
+}
