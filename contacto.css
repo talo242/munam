@@ -60,3 +60,8 @@ button:hover{
 .credits-item {
     list-style: none;
 }
+
+.logos a  {
+    display: inline-block;
+    margin-bottom: 16px;
+}
