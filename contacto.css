@@ -76,3 +76,24 @@ button:hover{
     background-color: white;
     color: #424241;
 }
+
+.thankyou-section {
+    display: flex;
+    flex-flow: column;
+    max-width: 900px;
+    margin: 200px auto auto;
+}
+.thankyou-section h1 {
+    font-size: 3em;
+
+}
+.thankyou-section p {
+    font-size: 1.5em;
+}
+
+.thankyou-btn {
+    color: white;
+}
+.thankyou-btn:hover {
+    color: white;
+}
