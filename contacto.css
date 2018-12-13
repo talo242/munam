@@ -65,3 +65,14 @@ button:hover{
     display: inline-block;
     margin-bottom: 16px;
 }
+
+.form-submit-btn {
+    background-color: #424241;
+    color: white;
+    border: 1px solid white!important;
+}
+
+.form-submit-btn:hover {
+    background-color: white;
+    color: #424241;
+}
