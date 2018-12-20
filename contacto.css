@@ -57,6 +57,14 @@ button:hover{
     padding: 0;
 }
 
+.credits-item-list a {
+    color: white;
+}
+
+.credits-item-list a:hover {
+    color: white;
+}
+
 .credits-item {
     list-style: none;
 }
